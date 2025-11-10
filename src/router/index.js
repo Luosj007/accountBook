@@ -1,7 +1,7 @@
 import Layout from "@/pages/Layout"
 import New from "@/pages/New"
 import Year from "@/pages/Year"
-import Mouth from "@/pages/Mouth"
+import Month from "@/pages/Month"
 import { createBrowserRouter } from "react-router-dom"
 
 const router = createBrowserRouter([
@@ -14,8 +14,8 @@ const router = createBrowserRouter([
         element:<Year/>
       },
       {
-        path:'mouth',
-        element:<Mouth/>
+        path:'month',
+        element:<Month/>
       }
     ]
   },
