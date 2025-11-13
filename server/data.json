@@ -83,6 +83,104 @@
       "date": "2023-04-03T11:14:56.036Z",
       "useFor": "food",
       "id": 19
+    },
+    {
+      "type": "income",
+      "money": 9500,
+      "date": "2025-01-10 08:30:00",
+      "useFor": "salary",
+      "id": 24
+    },
+    {
+      "type": "pay",
+      "money": -60,
+      "date": "2025-02-14T19:20:15.321Z",
+      "useFor": "food",
+      "id": 25
+    },
+    {
+      "type": "pay",
+      "money": -200,
+      "date": "2025-03-05 14:00:00",
+      "useFor": "travel",
+      "id": 26
+    },
+    {
+      "type": "income",
+      "money": 500,
+      "date": "2025-04-20T16:45:30.789Z",
+      "useFor": "bonus",
+      "id": 27
+    },
+    {
+      "type": "pay",
+      "money": -40,
+      "date": "2025-05-01 11:20:00",
+      "useFor": "drinks",
+      "id": 28
+    },
+    {
+      "type": "pay",
+      "money": -25,
+      "date": "2025-06-18T18:30:45.123Z",
+      "useFor": "dessert",
+      "id": 29
+    },
+    {
+      "type": "pay",
+      "money": -150,
+      "date": "2025-07-03 09:10:00",
+      "useFor": "longdistance",
+      "id": 30
+    },
+    {
+      "type": "income",
+      "money": 1200,
+      "date": "2025-08-15T10:00:20.456Z",
+      "useFor": "bonus",
+      "id": 31
+    },
+    {
+      "type": "pay",
+      "money": -80,
+      "date": "2025-09-22 12:15:00",
+      "useFor": "food",
+      "id": 32
+    },
+    {
+      "type": "pay",
+      "money": -35,
+      "date": "2025-10-08T17:50:30.678Z",
+      "useFor": "drinks",
+      "id": 33
+    },
+    {
+      "type": "income",
+      "money": 15000,
+      "date": "2025-11-05 09:00:00",
+      "useFor": "salary",
+      "id": 20
+    },
+    {
+      "type": "pay",
+      "money": -45,
+      "date": "2025-11-10T12:30:22.456Z",
+      "useFor": "food",
+      "id": 21
+    },
+    {
+      "type": "pay",
+      "money": -30,
+      "date": "2025-11-15 15:45:10",
+      "useFor": "drinks",
+      "id": 22
+    },
+    {
+      "type": "income",
+      "money": 800,
+      "date": "2025-11-20T18:10:05.789Z",
+      "useFor": "bonus",
+      "id": 23
     }
   ]
 }

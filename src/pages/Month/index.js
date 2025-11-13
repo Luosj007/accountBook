@@ -1,5 +1,5 @@
 import { NavBar, DatePicker } from 'antd-mobile'
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import './index.scss'
 import classNames from 'classnames'
 import dayjs from 'dayjs'
@@ -23,7 +23,6 @@ const Month = () => {
     return dayjs(new Date()).format('YYYY-MM') 
   })
 
-
   // 月份账单列表
   const [currentMonthList, setMonthList] = useState([])
   const monthResult = useMemo(()=> {
@@ -36,6 +35,15 @@ const Month = () => {
     }
   }, [currentMonthList])
   
+  // 初始化时当前月的账本统计
+  useEffect(() => {
+    const nowDate = dayjs().format('YYYY-MM')
+    // 边界值控制 
+    if(monthGroup[nowDate]){
+      setMonthList(monthGroup[nowDate])
+    }
+  }, [monthGroup])
+
   // 确认回调
   const onConfirm = (date)=>{
   setDateVisible(false)
